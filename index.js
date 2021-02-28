@@ -103,13 +103,13 @@ express.get("/socialban/api/public/v1/*", async (req, res) => {
 })
 
 express.get("/affiliate/api/public/affiliates/slug/:slug", async (req, res) => {
-	if (req.params.slug.toLowerCase() == "lawin")
+	if (req.params.slug.toLowerCase() == "XXD")
 	{
 		return res.status(200).json(
 			{
-				"id": "Lawin",
-				"slug": "lawin",
-				"displayName": "Lawin",
+				"id": "XXD",
+				"slug": "XXD",
+				"displayName": "XXD",
 				"status": "ACTIVE",
 				"verified": false
 			});
@@ -209,14 +209,14 @@ express.get("/account/api/public/account", async (req, res) => {
 			  "externalAuths": {}
 			},
 			{
-			  "id": "SubtoLawin_LOL123",
-			  "displayName": "Subscribe to Lawin on YouTube!",
+			  "id": "SubtoXoidPlays",
+			  "displayName": "Subscribe to Xoid Plays on YouTube!",
 			  "externalAuths": {
 				"xbl": {
 				  "type": "xbl",
 				  "externalAuthIdType": "xuid",
-				  "accountId": "SubtoLawin_LOL123",
-				  "externalDisplayName": "YouTube-Lawin",
+				  "accountId": "SubtoXoidPlays",
+				  "externalDisplayName": "YouTube-XXD",
 				  "authIds": [
 					{
 					  "id": "0",
@@ -228,8 +228,8 @@ express.get("/account/api/public/account", async (req, res) => {
 				  "type": "psn",
 				  "externalAuthId": "0",
 				  "externalAuthIdType": "psn_user_id",
-				  "accountId": "SubtoLawin_LOL123",
-				  "externalDisplayName": "YouTube-Lawin",
+				  "accountId": "SubtoXXD_LOL123",
+				  "externalDisplayName": "YouTube-XXD",
 				  "authIds": [
 					{
 					  "id": "0",
@@ -240,14 +240,14 @@ express.get("/account/api/public/account", async (req, res) => {
 			  }
 			},
 			{
-			  "id": "Followlawin_LOL123",
-			  "displayName": "Follow @lawin_010 on twitter!",
+			  "id": "itspaul",
+			  "displayName": "itspaul",
 			  "externalAuths": {
 				"xbl": {
 				  "type": "xbl",
 				  "externalAuthIdType": "xuid",
-				  "accountId": "Followlawin_LOL123",
-				  "externalDisplayName": "Twitter-lawin_010",
+				  "accountId": "itspaul",
+				  "externalDisplayName": "itspaul",
 				  "authIds": [
 					{
 					  "id": "0",
@@ -259,8 +259,8 @@ express.get("/account/api/public/account", async (req, res) => {
 				  "type": "psn",
 				  "externalAuthId": "0",
 				  "externalAuthIdType": "psn_user_id",
-				  "accountId": "Followlawin_LOL123",
-				  "externalDisplayName": "Twitter-lawin_010",
+				  "accountId": "FollowXXD_LOL123",
+				  "externalDisplayName": "Twitter-XXD_010",
 				  "authIds": [
 					{
 					  "id": "0",
@@ -473,8 +473,8 @@ express.get("/account/api/public/account/:accountId", async (req, res) => {
 	{
 		"id": req.params.accountId,
 		"displayName": req.params.accountId,
-		"name": "Lawin",
-		"email": req.params.accountId + "@lawin.com",
+		"name": "XXD",
+		"email": req.params.accountId + "@XXD.com",
 		"failedLoginAttempts": 0,
 		"lastLogin": new Date().toISOString(),
 		"numberOfDisplayNameChanges": 0,
@@ -547,7 +547,7 @@ express.get("/account/api/epicdomains/ssodomains", async (req, res) => {
 express.get("/fortnite/api/game/v2/matchmakingservice/ticket/player/*", async (req, res) => {
 	res.json(
 		{
-			"serviceUrl": "wss://lawinserverfinal.herokuapp.com",
+			"serviceUrl": "wss://dxv2s1.herokuapp.com",
 			"ticketType": "mms-player",
 			"payload": "69=",
 			"signature": "420="
@@ -890,21 +890,21 @@ express.post("/datarouter/api/v1/public/data", async (req, res) => {
 express.post("/account/api/oauth/token", async (req, res) => {
 	res.json(
 			{
-				"access_token": "lawinstokenlol",
+				"access_token": "XXDstokenlol",
 				"expires_in": 28800,
 				"expires_at": "9999-12-02T01:12:01.100Z",
 				"token_type": "bearer",
-				"refresh_token": "lawinstokenlol",
+				"refresh_token": "XXDstokenlol",
 				"refresh_expires": 86400,
 				"refresh_expires_at": "9999-12-02T01:12:01.100Z",
 				"account_id": req.body.username || "Invalid",
-				"client_id": "lawinsclientidlol",
+				"client_id": "XXDsclientidlol",
 				"internal_client": true,
 				"client_service": "fortnite",
 				"displayName": req.body.username || "Invalid",
 				"app": "fortnite",
 				"in_app_id": req.body.username || "Invalid",
-				"device_id": "lawinsdeviceidlol"
+				"device_id": "XXDsdeviceidlol"
 			}
 		)
 	res.status(200);
@@ -933,7 +933,7 @@ express.post("/account/api/oauth/token", async (req, res) => {
 				seasonchecker(req, seasondata);
 				profile.stats.attributes.season_num = seasondata.season;
 			}
-			if (req.body.affiliateName.toLowerCase() == "lawin" && profile.profileId == "common_core")
+			if (req.body.affiliateName.toLowerCase() == "XXD" && profile.profileId == "common_core")
 			{
 				profile.stats.attributes.mtx_affiliate_set_time = new Date().toISOString();
 				profile.stats.attributes.mtx_affiliate = req.body.affiliateName || "";
