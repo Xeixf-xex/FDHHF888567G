@@ -1,0 +1,71 @@
+[ {
+  "accountId" : "SubtoXeixf",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2016-05-11T15:53:53.072Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "FollowXeixf_OnTIKTOK",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "Ninja",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "Tfue",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "AliA",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "DAKOTAZ",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "Myth",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "PokiMane",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "SypherPK",
+  "status" : "ACCEPTED",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  },
+  {
+  "accountId" : "NickEh30",
+  "status" : "PENDING",
+  "direction" : "OUTBOUND",
+  "created" : "2000-04-08T12:32:42.069Z",
+  "favorite" : false
+  }
+]

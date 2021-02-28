@@ -1,0 +1,84 @@
+{
+  "friends": [
+    {
+      "accountId": "SubtoXeixf",
+      "groups": [],
+      "mutual": 1,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "FollowXeixf_OnTIKTOK",
+      "groups": [],
+      "mutual": 1,
+      "alias": "",
+      "note": "test",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "Ninja",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "Tfue",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "AliA",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "Dakotaz",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    },
+    {
+      "accountId": "Myth",
+      "groups": [],
+      "mutual": 0,
+      "alias": "",
+      "note": "",
+      "favorite": false,
+      "created": "2000-04-08T12:32:42.069Z"
+    }
+  ],
+  "incoming": [
+    {
+      "accountId": "HowdySweats",
+      "favorite": false
+    }
+  ],
+  "outgoing": [
+    {
+      "accountId": "PokiMane",
+      "favorite": false
+    }
+  ],
+  "suggested": [],
+  "blocklist" : [],
+  "settings": {
+    "acceptInvites": "public"
+  }
+}
